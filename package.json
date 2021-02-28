@@ -4,7 +4,7 @@
   "description": "Suite of Cypress tests for AstroBin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/astrobin/astrobin-integration-tests#readme",
   "devDependencies": {
-    "cypress": "6.5.0"
+    "cypress": "6.5.0",
+    "cypress-commands": "1.1.0"
   }
 }
